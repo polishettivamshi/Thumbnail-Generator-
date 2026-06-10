@@ -1,0 +1,6 @@
+{
+  "name": "Gaming Thumbnail Studio",
+  "description": "A professional Canva-like graphic editor specialized for YouTube Gaming Thumbnails and Shorts, featuring customizable text properties, background filter adjustments, gaming fonts, presets, and high-quality export options.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

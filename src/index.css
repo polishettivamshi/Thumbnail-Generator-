@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Bangers&family=Bebas+Neue&family=Black+Ops+One&family=Luckiest+Guy&family=Permanent+Marker&family=Rubik+Dirt&family=Russo+One&family=Inter:wght@400;500;600;700;800&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-rubik: "Rubik Dirt", sans-serif;
+  --font-bangers: "Bangers", sans-serif;
+  --font-luckiest: "Luckiest Guy", sans-serif;
+  --font-anton: "Anton", sans-serif;
+  --font-blackops: "Black Ops One", sans-serif;
+  --font-bebas: "Bebas Neue", sans-serif;
+  --font-russo: "Russo One", sans-serif;
+  --font-marker: "Permanent Marker", sans-serif;
+
+  --color-brand-bg: #0F0F11;
+  --color-brand-sidebar: #1A1A1E;
+  --color-brand-border: #2D2D35;
+  --color-brand-accent: #818CF8;
+  --color-brand-muted: #9BA3AF;
+  --color-brand-gold: #FACC15;
+  --color-brand-red: #EF4444;
+}
+
+/* Custom scrollbar styling to match Elegant Dark design principles */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: #1A1A1E;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #2D2D35;
+  border-radius: 3px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #818CF8;
+}
+
